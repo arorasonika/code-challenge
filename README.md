@@ -26,3 +26,17 @@ Add also to your array the painting thumbnails present in the result page file (
 Test against 2 other similar result pages to make sure it works against different layouts. (Pages that contain the same kind of carrousel. Don't necessarily have to be paintings.)
 
 The suggested time for this challenge is 4 hours. But, you can take your time and work more on it if you want.
+
+## Instructions to run the solution:
+
+Create the virtual environment: `python3.11 -m venv venv`
+
+Or use steps here: https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/
+
+Activate the virtual environment: `source venv/bin/activate`
+
+Install requirements.txt: `pip install -r requirements.txt`
+
+Run the python command for files you want to test in terminal. Example: `python test_van_gogh_paintings.py`, `python html_to_json_parser.py`
+ 
+ Note: Running `python html_to_json_parser.py` generates the files/generated-array-van-gogh-paintings.json file after parsing the html file. Then the `JSONComparator` checks if the expected-array.json is same as generated-array-van-gogh-paintings.json. 
